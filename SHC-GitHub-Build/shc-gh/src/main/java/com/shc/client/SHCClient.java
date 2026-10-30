@@ -23,7 +23,7 @@ public final class SHCClient implements ClientModInitializer {
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             while (openMenuKey.consumeClick()) {
-                Minecraft.getInstance().setScreen(new SHCScreen());
+                Minecraft.getInstance().gui.setScreen(new SHCScreen());
             }
         });
     }
