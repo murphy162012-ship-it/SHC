@@ -1,0 +1,2 @@
+# SHC
+Shadow Minecraft Client
