@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "shc",
+  "version": "${version}",
+  "name": "Server Hacking Client",
+  "description": "A client-side utility menu with configurable, server-friendly features.",
+  "authors": ["SHC"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.shc.client.SHCClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
